@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightseagreen;
+}
+
+.display {
+    font-size: 2rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.Number_Grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(4,100px);
+}
+
+.display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.double {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.other-buttons {
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.other-buttons:hover {
+    background-color: lightgrey;
+
+}
+
+.equal {
+    background-color: rgb(0, 150, 0);
+    color: white;
+    font-size: 2.5rem;
+}
+
+.equal:hover {
+    background-color: green;
+}
+
+.clear {
+    background-color: rgb(250, 0, 0);
+    color: white;
+    font-size: 2.5rem;
+}
+
+.clear:hover {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-size: 2.5rem;
+}
